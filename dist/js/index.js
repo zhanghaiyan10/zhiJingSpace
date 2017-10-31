@@ -47,10 +47,10 @@ $(function(){
             for(var i=0; i<data.length;i++){
                 if(data[i].year===anchor){
                     var url0 = data[i].images[0].url;
-                    var fragment = "<img src="+url0+"/>";
+                    var fragment = "<img src="+url0+">";
                     for(j=1;j<data[i].images.length;j++){
                         var url = data[i].images[j].url;
-                        fragment+="<img style='display:none' src="+url+"/>";
+                        fragment+="<img style='display:none' src="+url+">";
                     }
                 }
             }
@@ -69,11 +69,11 @@ $(function(){
             for(var i=0; i<data.length;i++){
                 if(data[i].name===anchor){
                     var url0 = data[i].images[0].url;
-                    var fragment = "<img src="+url0+"/>";
+                    var fragment = "<img src="+url0+">";
                     var indexList = "";
                     for(j=1;j<data[i].images.length;j++){
                         var url = data[i].images[j].url;
-                        fragment+="<img style='display:none' src="+url+"/>";
+                        fragment+="<img style='display:none' src="+url+">";
                     }
                     for(j=1;j<data[i].images.length+1;j++){
                         indexList+="<li>"+j+"</li>";
