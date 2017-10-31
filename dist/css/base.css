@@ -42,17 +42,19 @@ nav img{
 #year-anchor span{
     margin-right:5px;
     font-size:12px;
-    font-weight:400;
+    font-weight:500;
 }
 #main-wrap{
     position:relative;
 }
+
 #content-wrap{
     position:relative;
     margin:0 3%;
     width:94%;
     overflow:hidden;
 }
+
 #content{
     position:relative;
     left:0;
@@ -94,6 +96,7 @@ nav img{
     height:100%;
     background-color:#fff;
     opacity:0.3;
+    filter:alpha(opacity=30);
 
 }
 #category{
@@ -106,14 +109,24 @@ nav img{
     font-weight:500;
     font-size:12px;
 }
+#category span:hover{
+    color:#cd0d0e;
+    cursor:default;
+}
 #other{
     margin:30px auto 0;
     text-align:center;
+
 }
 #other span{
     margin-right:10px;
     font-weight:400;
     font-size:12px;
+}
+#other img{
+    width:100px;
+    height:100px;
+    vertical-align:middle;
 }
 #left{
      position:absolute;
@@ -136,14 +149,12 @@ nav img{
 
 #detail{
     position:absolute;
-    top:-80%;
+    top:-45%;
     left:25%;
     width:50%;
-    height:340px;
-    overflow:hidden;
     display:none;
 }
-#detail td img{
+#detail  img{
     width:100%;
     display:block;
 }
@@ -164,13 +175,13 @@ nav img{
 }
 #detail .anchor{
     position:absolute;
-    left:20px;
+    left:15px;
     bottom:15px;
     overflow:hidden;
 }
 #detail .anchor li{
     float:left;
-    margin-right:10px;
+    margin-right:5px;
     cursor:pointer;
     font-size:12px;
     text-align:center;
