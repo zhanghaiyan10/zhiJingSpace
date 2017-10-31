@@ -51,11 +51,10 @@ nav img{
     position:relative;
     margin:0 3%;
     width:94%;
-    height:158px;
     overflow:hidden;
 }
 #content{
-    position:absolute;
+    position:relative;
     left:0;
     top:0;
     width:1000%;
